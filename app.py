@@ -3,6 +3,11 @@ from extra.hangman import hangman_graphics, animals_sorted, states_sorted, food_
 
 
 while True:
+    print("\nWelcome to HANGMAN!")
+    print(hangman_graphics[0])
+    print("H A N G M A N")
+    print("_ _ _ _ _ _ _")
+
     print("\n1) Animals")
     print("2) States and Provinces of the U.S.A.")
     print("3) Food Dishes")
@@ -12,7 +17,6 @@ while True:
     print("2) Normal. In Normal mode, there is no restriction on the word selection.")
     print("3) Hard. In Hard mode, longer words are in the selection pool and there is a penalty for guessing the same letter more than once.")
     game_difficulty = input("Select a game mode(1, 2, or 3): ")
-
 
     if topic_choice == "1" and game_difficulty == "1":
         print("You selected 'Animals' (EASY)!")
