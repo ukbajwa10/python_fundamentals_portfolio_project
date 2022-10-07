@@ -63,8 +63,6 @@ food = ["Cheeseburgers", "Pasta", "Pizza",
         "French Fries", "Chicken Wings", "Spaghetti", "Chicken Nuggets", "Steak", "Apple Pie", "Jambalaya", "Macaroni and Cheese", "Grilled Cheese Sandwich", "Waffles", "Pancakes", "Hot Dogs", "Barbecue", "Cheesecake", "Cake", "Cookies", "Brownies", "Noodles", "Kung Pao Chicken", "Fajitas", "Corn", "Omelette", "Chicken Tikka Masala"]
 
 # Sort the lists by word length in order to implement a game difficulty
-
-
 def Sorting(list):
     sorted_list = sorted(list, key=len)
     return sorted_list
